@@ -1,0 +1,35 @@
+.img{
+    background: url(../../assets/cat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    border-radius: 10px;
+    margin: 0 5px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+  }
+  .img .btn-secondary {
+    color: #fff;
+    position: absolute;
+    left: 217px;
+    background-color: transparent;
+    border-color: transparent; 
+    font-size: 20px;
+    align-self: flex-start;
+    display: block;
+    
+  }
+  .foot_banner{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    justify-content: space-between;
+    background: rgba(66, 65, 68, 0.72);
+    width: 268px;
+    padding: 6px 20px;
+    border-radius: 0 0 10px 10px;
+    color: #fff;
+  
+  }
+  
